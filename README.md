@@ -6,6 +6,6 @@
             <a href="http://getbootstrap.com/">Bootstrap</a>, <a href="http://fortawesome.github.io/Font-Awesome/cheatsheet/">
             Font-Awesome</a>, <a href="http://angular-ui.github.io/bootstrap/">Angular-Bootstrap</a>,
             & <a href="https://docs.angularjs.org/api/ngAnimate">ngAnimate</a> Have Also Been Included For Your Geeky Pleasure.
-            <br />Please Use, Share, & Improve This Project.<br />
+            <br /><cnter>Please Use, Share, & Improve This Project.</center><br />
             <h3>HACK THE PLANET, OPEN SOURCE THE UNIVERSE!!!</h3>
 
