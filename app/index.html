@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en"  class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en"  class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"  class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>ngSPA BoilerPlate</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/css/normalize.css">
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/css/main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="bower_components/ngAnimate/css/ng-animation.css">
+  <script src="bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js"></script>
+</head>
+<body data-ng-app="spaApp" >
+<!-- HEADER & NAVBAR -->
+<header>
+    <nav class="navbar navbar-default header">
+        <div class="container">
+            <div class="navbar-header">
+                <a  style="color: #e78f08;" class="navbar-brand" href="/">ngSPA BoilerPlate</a>
+            </div>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#/home"><i class="fa fa-home"></i> HOME</a></li>
+                <li><a href="#/about"><i class="fa fa-globe"></i> ABOUT</a></li>
+                <li><a href="#/contact"><i class="fa fa-bullhorn"></i> CONTACT</a></li>
+            </ul>
+        </div> <!-- END CONTAINER NAV-->
+    </nav> <!-- END NAV -->
+</header> <!-- END HEADER -->
+
+<div class="container">
+
+  <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>SHITTY</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+
+  <div class="page {{ pageClass }}" data-ng-view></div>
+
+
+
+
+</div> <!-- END CONTAINER MAIN-->
+
+  <footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6 col-sm-6 col-md-3
+                <p class="text-muted" style="padding: 15px;" ><i class="fa fa-copyright"></i>0pyWr0ng   2015</p>
+            </div>
+        </div> <!-- END ROW -->
+    </div>  <!-- END CONTAINER FOOTER -->
+  </footer>
+
+
+
+
+
+  <!-- In production use:
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
+  -->
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="bower_components/angular-bootstrap/ui-bootstrap.js"></script>
+  <script src="bower_components/ngAnimate/js/angular-animate.min.js"></script>
+  <script src="js/app.js"></script>
+  <script src="home/home.js"></script>
+  <script src="about/about.js"></script>
+  <script src="contact/contact.js"></script>
+</body>
+</html>
